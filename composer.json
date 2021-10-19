@@ -1,0 +1,38 @@
+{
+    "name": "salamzadeh/php-image-resize",
+    "description": "PHP class to re-size and scale images",
+    "keywords": ["php", "image", "resize","scale"],
+    "type": "library",
+    "homepage": "https://github.com/salamzadeh/php-image-resize",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sasan Salamzadeh",
+            "homepage": "http://salamzadeh.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-gd": "*",
+        "ext-fileinfo": "*"
+    },
+    "suggest": {
+        "ext-exif": "Auto-rotate jpeg files"
+    },
+    "autoload": {
+        "psr-4": {
+            "Salamzadeh\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Salamzadeh\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "php-coveralls/php-coveralls": "dev-master || ^1.0",
+        "ext-exif": "*",
+        "ext-gd": "*"
+    }
+}
